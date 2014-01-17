@@ -1,0 +1,43 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.box-1 {
+	margin: 50px auto;
+	width: 200px;
+	height: 125px;
+	background: blue;
+	background: rgb(179, 179, 240);
+	border-radius: 6px;
+	box-shadow: inset 0 -6px 0 rgb(121, 121, 180);
+	-webkit-transition:all 0.5s ease;
+
+}
+
+.box-1:hover {
+	margin-top: 53px;
+	height: 122px;
+	-webkit-transform: rotate(180deg);
+	box-shadow: inset 0 -3px 0 rgb(121, 121, 180)
+	-webkit-transition:all 0.5s ease;
+
+}
+
+.box-2 {
+	width: 200px;
+	height: 200px;
+	margin: 50px auto;
+	background: rgb(179, 179, 240);
+
+}
+
+.box-2:hover {
+	border-radius: 200px;
+	-webkit-transition:all 0.5s ease;
+	-webkit-transform: rotate(180deg);
+}
+
+
+
