@@ -1,37 +1,38 @@
 
 
-body * {
-	display: inline-block;
+body {
+	margin: 0;
+	padding: 0;
 }
  
-/*Number-1*/
+
 
 .number-1 {
-	margin: 50px; 
+	margin: 50px auto; 
 	width: 200px;
-	height: 125px;
-	background: blue;
-	background: rgb(179, 179, 240);
-	border-radius: 6px;
-	box-shadow: inset 0 -6px 0 rgb(121, 121, 180);
+	height: 150px;
+	background: purple;
+	border-radius: 20px;
+	box-shadow: inset 0 -6px 0 yellow;
 	-webkit-transition:all 0.5s ease;
 
 }
 
 .number-1:hover {
-	margin-top: 53px;
-	height: 122px;
+	margin: 50px auto;
+	height: 130px;
 	-webkit-transform: rotate(180deg);
-	box-shadow: inset 0 -3px 0 rgb(121, 121, 180)
+	box-shadow:  0 -6px 0 yellow;
 	-webkit-transition:all 0.5s ease;
+	cursor: wait;
 
 }
- /* NUMBER 2*/
+
 
 .number-2 {
 	width: 200px;
 	height: 200px;
-	margin: 50px;
+	margin: 50px auto;
 	background: rgb(179, 179, 240);
 
 }
@@ -40,14 +41,15 @@ body * {
 	border-radius: 200px;
 	-webkit-transition:all 0.5s ease;
 	-webkit-transform: rotate(180deg);
+	background: rgb(190, 114, 240);
 }
 
 .number-3 {
   width: 200px;
   height: 200px;
   background: red;
-  margin: 50px;
-  -webkit-transition: background-color 2s ease-out;
+  margin: 50px auto;
+  -webkit-transition: background-color 1s ease-out;
 }
 
 .number-3:hover {
@@ -58,14 +60,177 @@ body * {
 .number-4 {
 	width: 100px;
   	height: 100px;
-  	margin: 50px;
-    -webkit-transition: -webkit-transform 0.3s ease;
+  	margin: 200px auto;
+    -webkit-transition: 0.3s ease;
     
 }
 
 .number-4:hover {
-    -webkit-transform: scale(1.5);
+    -webkit-transition: scale(1.5);
     -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-    
+    cursor: help;
+}
+
+.number-5 {
+	width: 150px;
+  	height: 50px;
+  	margin: 50px auto;
+  	font-size: 25px;
+  	color: white;
+  	border: 1px solid black;
+  	text-align: center;
+
+  
+}
+
+.number-5:hover {
+	background-color: gray;
+   -webkit-transition: background-color 2s ease-out; 
+}
+
+
+.number-6 {
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+        background: purple;
+        color: purple;
+        -webkit-transition: all .5s ease;
+}
+
+.number-6:hover {
+        background: yellow;
+        padding-right: 10px;
+        height: 100px;
+}
+
+.number-7 {
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin: 50px auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    -webkit-transition: border-width: 2s ease;
+}
+
+.number-7:hover{
+   	border-width: 25px;    
+}
+
+.number-8 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgb(35, 35, 35);
+    margin: 50px auto;
+}
+
+.number-8:hover {
+    background-color: rgba(35, 35, 35, 0);
+    -webkit-transition: background: 1s ease;
+}
+
+
+.number-9 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: green;
+    margin: 50px auto;
+    transition: background-color 0.5s ease;
+}
+
+.number-9:hover {
+    background-color: yellow;
+}
+
+.number-10 {
+	width: 200px;
+	height: 200px;
+	margin: 50px auto;
+	background: red;
+	-webkit-transition: all 1s ease;
+}
+
+.number-10:hover {
+        opacity: .2;
+}
+
+.number-11 {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background: black;
+    -webkit-transition: all .5s ease;
+}
+
+.number-11:hover {
+	height: 100px;
+    width: 500px;
+    background: gray;
+    font-size: 70px;
+}
+
+.number-12 {
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+        font-size: 70px;
+        font-weight: 200;
+        background: green;
+        -webkit-transition: all 0.6s ease;
+}
+
+.number-12:hover {
+        font-weight: 700;
+}
+
+.number-13 {
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+        font-size: 70px;
+        background: yellow;
+        -webkit-transition: all 0.6s ease;
+
+}
+
+.number-13:hover {
+        margin-top: 20px;
+        font-size: 20px;
+}
+
+
+.number-14 {
+        margin: 50px auto;
+        width: 200px;
+        height: 125px;
+        background: rgb(179, 179, 238);
+        box-shadow: inset 0 -6px 0 rgb(121, 121, 180);
+        border-radius: 6px;
+        -webkit-transition: all 0.1s ease;
+}
+
+.number-14:hover {
+        margin-top: 53px;
+        height: 122px;
+        box-shadow: inset 0 -3px 0 rgb(121, 121, 180);
+        -webkit-transform: rotate(18deg);
+}
+
+.number-15 {
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+        background: green;
+        -webkit-transition: all 5s ease;
+}
+
+.number-15:hover {
+        width: 10px;
+        height: 10px;
+        background: red;
 }
 
